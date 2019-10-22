@@ -5,13 +5,13 @@
 #include "student.h"
 
 class Roster{
-
+   const int MAXCAPACITY = 10;
    private:
      string courseName;
      int courseCode;
      int credits;
      string instructor;
-     Student stu;
+     Student stu[MAXCAPACITY];
 
    public:
      //accessors
