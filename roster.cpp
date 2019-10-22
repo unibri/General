@@ -5,7 +5,6 @@
 #include "student.h"
 
 Roster::Roster() : courseName(""), courseCode(0), credits(0), instructor(""){
-  Student::Student stu();
 }
 
 string Roster::getCourseName(){
